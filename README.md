@@ -12,6 +12,11 @@
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support:cardview-v7:25.3.1'
     compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.android.support:palette-v7:25.3.1'
+    compile 'com.android.support:percent:25.3.1'
+    compile 'com.android.support:support-annotations:25.3.1'
+    //分包
+    compile 'com.android.support:multidex:1.0.1'
 ```
 
 网络
@@ -118,11 +123,17 @@
     compile "com.facebook.fresco:webpsupport:${FRESCO_VERSION}"
 //      https://github.com/facebook/fresco      //14.9K
 
-//Picasso
+//Picasso----
     implementation 'com.squareup.picasso:picasso:2.71828'
 //      https://github.com/square/picasso       //15.9K
 
-//glide
+//为picasso提供多种图片转换
+    compile 'jp.wasabeef:picasso-transformations:2.2.1'
+    // If you want to use the GPU Filters
+    compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+//      https://github.com/wasabeef/picasso-transformations    //1.4K    
+
+//glide----
     implementation('com.github.bumptech.glide:glide:4.5.0') {
         exclude group: "com.android.support"
     }
@@ -161,6 +172,13 @@
     compile 'com.soundcloud.android:android-crop:1.0.1@aar'
 //      https://github.com/jdamcd/android-crop  //4.1K
 
+//用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库
+    compile 'com.jph.takephoto:takephoto_library:4.1.0'
+//      https://github.com/crazycodeboy/TakePhoto   //5.5K
+
+//完全仿微信的图片选择，并且提供了多种图片加载接口，选择图片后可以旋转，可以裁剪成矩形或圆形，可以配置各种其他的参数
+	compile 'com.lzy.widget:imagepicker:0.6.1'  //指定版本
+//      https://github.com/jeasonlzy/ImagePicker    //3.2K
 ```
 
 数据库
@@ -186,6 +204,20 @@
 
 ```
 
+组件传递数据
+===
+```
+
+//Extra是Android标准的组件之间（Activity/Fragment/Service等）传递数据的方式。Dart的使用，它优雅的处理了组件间跳转和数据传递
+    implementation 'com.f2prateek.dart:dart-annotations:3.0.1'
+    implementation 'com.f2prateek.dart:dart:3.0.1'
+    implementation 'com.f2prateek.dart:henson:3.0.1'
+    annotationProcessor 'com.f2prateek.dart:dart-processor:3.0.1'
+    annotationProcessor 'com.f2prateek.dart:henson-processor:3.0.1'
+//      https://github.com/f2prateek/dart       //1.1K
+```
+
+
 日志
 ===
 
@@ -194,6 +226,11 @@
 //----------------------------------------日志库-------------------------------------
     implementation 'com.orhanobut:logger:2.2.0'
 //      https://github.com/orhanobut/logger     9.8K
+
+
+//
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+//      https://github.com/JakeWharton/timber       //6.0K
 
 ```
 视频播放
@@ -211,27 +248,29 @@
 
 
 ```
-内存泄漏检测
-===
-```
-//-----------------------------------内存泄漏检测-----------------------------------------
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
-    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
-    // Optional, if you use support library fragments:
-    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
-//      https://github.com/square/leakcanary    20.5K
 
-```
 View注入框架
 ===
 ```
 
 //--------------------------------View注入框架-------------------------------------
+//butterknife:避免在代码里写大量的findViewById
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 //      https://github.com/JakeWharton/butterknife      22.0K
 
 ```
+依赖注入
+===
+```
+//依赖注入是面向对象编程的一种设计模式，其目的是为了降低程序耦合，这个耦合就是类之间的依赖引起的.
+    compile"com.google.dagger:dagger:2.14.1"
+    annotationProcessor"com.google.dagger:dagger-compiler:2.14.1"
+//      https://github.com/google/dagger    //11.8K
+```
+
+
+
 选择器
 ===
 ```
@@ -295,10 +334,25 @@ View注入框架
   compile 'com.nineoldandroids:library:2.4.0'
 //      https://github.com/JakeWharton/NineOldAndroids  //4.4K
 
+
 //loading动画
    compile 'com.wang.avi:library:2.1.3'
 //      https://github.com/81813780/AVLoadingIndicatorView  //7.8K
 
+
+//滑动开关按钮
+   	implementation 'com.kyleduo.switchbutton:library:2.0.0'
+//      https://github.com/kyleduo/SwitchButton     //3.7K
+
+
+//选择城市，选择联系人等需要索引的功能
+    compile 'me.yokeyword:indexablerecyclerview:1.3.0'
+//      https://github.com/YoKeyword/IndexableRecyclerView      //975
+
+
+//日历
+  implementation 'com.github.prolificinteractive:material-calendarview:2.0.0'
+//      https://github.com/prolificinteractive/material-calendarview    //4.5K
 ```
 二维码扫描
 ===
@@ -323,19 +377,17 @@ activity侧滑返回
 //      https://github.com/bingoogolapple/BGASwipeBackLayout-Android    //1.4K
 
 ```
-分包
-===
-```
-//分包
-    compile 'com.android.support:multidex:1.0.3'
 
-```
 状态栏
 ===
 ```
 //状态栏
     compile 'com.jaeger.statusbarutil:library:1.5.1'
 //      https://github.com/laobie/StatusBarUtil     //6.1K
+
+//systembartint
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+//      https://github.com/jgilfelt/SystemBarTint       //5.0K
 
 ```
 颜色选择器
@@ -345,3 +397,117 @@ activity侧滑返回
     compile 'com.larswerkman:HoloColorPicker:1.5'
 //      https://github.com/LarsWerkman/HoloColorPicker      //1.2K
 ```
+
+
+
+```
+//firebase的功能包括推送通知，云存储，活动监视，远程部署,Google推出的一个云端服务，使用免费但须翻墙
+    compile 'com.google.firebase:firebase-core:9.0.2'
+```
+
+序列化：
+===
+```
+//Parceler 是一个代码代码生成器包，用于生成Android Parcelable 模板代码。
+    compile 'org.parceler:parceler-api:1.1.11'
+    annotationProcessor 'org.parceler:parceler:1.1.11'
+//      https://github.com/johncarl81/parceler      //3.3K
+
+```
+
+activity状态保存
+===
+
+```
+//icepick:避免在Activity恢复时重新设置状态的麻烦
+  compile 'frankiesardo:icepick:3.2.0'
+  provided 'frankiesardo:icepick-processor:3.2.0'
+//      https://github.com/frankiesardo/icepick //3.7K
+```
+
+调试
+===
+```
+//stetho
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    compile 'com.facebook.stetho:stetho-urlconnection:1.5.0'
+    compile 'com.facebook.stetho:stetho-js-rhino:1.5.0'
+//      https://github.com/facebook/stetho      //10.2K
+
+//blockcanary：卡顿检测
+    compile 'com.github.markzhai:blockcanary-android:1.5.0'
+//      https://github.com/markzhai/AndroidPerformanceMonitor   //4.4K
+
+
+//blockcanary改进版
+    debugCompile 'com.letv.sarrsdesktop:BlockCanaryExJRT:0.9.9.4'
+    releaseCompile 'com.letv.sarrsdesktop:BlockCanaryExJRTNoOp:0.9.9.4'
+    testCompile 'com.letv.sarrsdesktop:BlockCanaryExJRTNoOp:0.9.9.4'
+//      https://github.com/seiginonakama/BlockCanaryEx  //1.8K
+
+//leakcanary：内存泄漏检测
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
+    // Optional, if you use support library fragments:
+    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
+//      https://github.com/square/leakcanary    20.5K
+
+```
+
+
+
+
+
+六个可以让代码变得更整洁的 Android 库
+==
+
+1.butterknife
+
+2.icepick
+
+3.Dart 和Henson
+
+4.Parceler
+
+5.Timber
+
+6.Dagger和Dagger2
+
+感谢：
+===
+[Android 开源项目](https://github.com/Trinea/android-open-project#%E7%AC%AC%E4%B8%89%E9%83%A8%E5%88%86-%E4%BC%98%E7%A7%80%E9%A1%B9%E7%9B%AE)
+
+[学习项目：SeeWeather](https://github.com/xcc3641/SeeWeather)
+
+[学习项目：GeekNews](https://github.com/codeestX/GeekNews)
+
+[学习项目：LQRWeChat](https://github.com/GitLqr/LQRWeChat)
+
+[学习项目：AndroidFire](https://github.com/jaydenxiao2016/AndroidFire)
+
+[学习项目：MvpApp](https://github.com/Rukey7/MvpApp)
+
+[学习项目：Toutiao](https://github.com/iMeiji/Toutiao)
+
+[学习项目：KingTV](https://github.com/jenly1314/KingTV)
+
+[RxJava 2 和 Retrofit 结合使用的几个最常见使用方式举例](https://github.com/rengwuxian/RxJavaSamples)
+
+[RxjavaRetrofitDemo](https://github.com/tough1985/RxjavaRetrofitDemo)
+
+[在线视频App](https://github.com/GeekGhost/Ghost)
+
+[LifeHelper](https://github.com/yangchong211/LifeHelper)
+
+
+
+
+
+
+
+
+
+
+
+
+
