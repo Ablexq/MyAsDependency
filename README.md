@@ -142,7 +142,7 @@
 //      https://github.com/hdodenhof/CircleImageView        //10.4K
 
 //手势图片
-    compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile 'com.github.chrisbanes:PhotoView:2.1.4'
 //      https://github.com/chrisbanes/PhotoView     //13.8K
 
 //仿微信选图
@@ -290,6 +290,14 @@ View注入框架
     implementation 'cn.bingoogolapple:bga-refreshlayout:1.1.8'
 //      https://github.com/bingoogolapple/BGARefreshLayout-Android  //3.7K
 
+
+//兼容动画
+  compile 'com.nineoldandroids:library:2.4.0'
+//      https://github.com/JakeWharton/NineOldAndroids  //4.4K
+
+//loading动画
+   compile 'com.wang.avi:library:2.1.3'
+//      https://github.com/81813780/AVLoadingIndicatorView  //7.8K
 
 ```
 二维码扫描
