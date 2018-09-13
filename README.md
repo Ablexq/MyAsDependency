@@ -1,4 +1,8 @@
 
+
+基础
+===
+
 ```
 //---------------------------------------基础------------------------------------------------
 
@@ -8,7 +12,12 @@
     compile 'com.android.support:design:25.3.1'
     compile 'com.android.support:cardview-v7:25.3.1'
     compile 'com.android.support:support-vector-drawable:25.3.1'
+```
 
+网络
+===
+
+```
 //---------------------------------------网络------------------------------------------
     // 支持 retrofit
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
@@ -59,6 +68,13 @@
     implementation 'com.trello.rxlifecycle2:rxlifecycle-android-lifecycle-kotlin:2.2.2'
 //      https://github.com/trello/RxLifecycle   //6.1K
 
+```
+
+动态权限
+===
+
+```
+
 //------------------------------------动态权限-------------------------------------------
 //https://blog.csdn.net/totond/article/details/73648103 以下三者对比
 
@@ -78,6 +94,13 @@
 //AndPermission
     compile 'com.yanzhenjie:permission:2.0.0-rc12'
 //      https://github.com/yanzhenjie/AndPermission  //4.5K
+
+```
+
+图片
+===
+
+```
 
     /*----------------------------------- 图片 ------------------------------------*/
 //fresco
@@ -138,18 +161,45 @@
     compile 'com.soundcloud.android:android-crop:1.0.1@aar'
 //      https://github.com/jdamcd/android-crop  //4.1K
 
+```
+
+数据库
+===
+
+```
+
 // ---------------------------------------数据库------------------------------------
     compile 'org.greenrobot:greendao:3.2.2' // add library
     compile 'org.greenrobot:greendao-generator:3.2.0'
 //      https://github.com/greenrobot/greenDAO      //10.4K
 
+```
+
+事件传递
+===
+
+```
+
 //-------------------------------------事件传递-----------------------------------------
     compile 'org.greenrobot:eventbus:3.1.1'
 //      https://github.com/greenrobot/EventBus      //19.2K
 
+```
+
+日志
+===
+
+```
+
 //----------------------------------------日志库-------------------------------------
     implementation 'com.orhanobut:logger:2.2.0'
 //      https://github.com/orhanobut/logger     9.8K
+
+```
+视频播放
+===
+
+```
 
 //--------------------------------------视频播放------------------------------------
     compile 'cn.jzvd:jiaozivideoplayer:6.3.1'
@@ -159,6 +209,11 @@
     implementation 'com.shuyu:GSYVideoPlayer:6.0.0-beta'
 //      https://github.com/CarGuo/GSYVideoPlayer        //7.3K
 
+
+```
+内存泄漏检测
+===
+```
 //-----------------------------------内存泄漏检测-----------------------------------------
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
@@ -171,6 +226,10 @@
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 //      https://github.com/JakeWharton/butterknife      22.0K
 
+```
+选择器
+===
+```
     /*--------------------------------选择器--------------------------------------*/
 //选择器：时间选择器、省市区三级联动等
     compile 'com.contrarywind:Android-PickerView:4.1.6'
@@ -188,6 +247,11 @@
     }
 //      https://github.com/gzu-liyujiang/AndroidPicker  //3.9K
 
+
+```
+控件
+===
+```
     /*------------------------------- 控件 ---------------------------------------*/
 //RecyclerView的辅助适配器
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
@@ -222,23 +286,42 @@
 //      https://github.com/bingoogolapple/BGARefreshLayout-Android  //3.7K
 
 
-/*----------------------------------------其他--------------------------------------*/
+```
+二维码扫描
+===
+```
 //二维码扫描
     implementation 'cn.bingoogolapple:bga-qrcode-zxing:1.2.5'
     implementation 'cn.bingoogolapple:bga-qrcode-zbar:1.2.5'
 //      https://github.com/bingoogolapple/BGAQRCode-Android     //4.3K
 
+```
+activity侧滑返回
+===
+```
 //activity侧滑返回
     compile 'cn.bingoogolapple:bga-swipebacklayout:1.1.9'
 //      https://github.com/bingoogolapple/BGASwipeBackLayout-Android    //1.4K
 
+```
+分包
+===
+```
 //分包
     compile 'com.android.support:multidex:1.0.3'
 
+```
+状态栏
+===
+```
 //状态栏
     compile 'com.jaeger.statusbarutil:library:1.5.1'
 //      https://github.com/laobie/StatusBarUtil     //6.1K
 
+```
+颜色选择器
+===
+```
 //颜色选择器
     compile 'com.larswerkman:HoloColorPicker:1.5'
 //      https://github.com/LarsWerkman/HoloColorPicker      //1.2K
