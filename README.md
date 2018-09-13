@@ -221,6 +221,11 @@
     debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
 //      https://github.com/square/leakcanary    20.5K
 
+```
+View注入框架
+===
+```
+
 //--------------------------------View注入框架-------------------------------------
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
