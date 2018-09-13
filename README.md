@@ -308,6 +308,12 @@ View注入框架
     implementation 'cn.bingoogolapple:bga-qrcode-zbar:1.2.5'
 //      https://github.com/bingoogolapple/BGAQRCode-Android     //4.3K
 
+//Google提供二维码扫描
+    compile 'com.google.zxing:core:3.3.0'   
+//      https://github.com/zxing/zxing      //19.9K
+
+//xuyisheng/ZXingLib
+//https://github.com/xuyisheng/ZXingLib     //362
 ```
 activity侧滑返回
 ===
