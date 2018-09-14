@@ -53,12 +53,17 @@
 
 [rengwuxian/RxJavaSamples](https://github.com/rengwuxian/RxJavaSamples) //3.6K
 
+[Retrofit+Rxjava+okhttp终极封装(Gson方案) ](https://github.com/wzgiceman/RxjavaRetrofitDemo-master)  //811
+
 [微影，一款纯粹的在线视频App](https://github.com/GeekGhost/Ghost)
 
-[LifeHelper](https://github.com/yangchong211/LifeHelper)
+[综合案例训练，包含新闻，视频，图片，音乐，记事本等等模块](https://github.com/yangchong211/LifeHelper)
 
+[一款优雅的干货集中营android客户端](https://github.com/dongjunkun/GanK)
 
+[小秋魔盒（QBox）是一个生活工具 Android App](https://github.com/OCNYang/QBox)
 
+[基于Retrofit+RxJava+MVP+Colorful多彩主题框架开发的高颜值影讯app](https://github.com/woxingxiao/GracefulMovies)
 
 # 优秀的库
 
