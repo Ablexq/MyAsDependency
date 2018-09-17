@@ -347,8 +347,9 @@
     compile 'com.zhy:autolayout:1.4.5'
 //      https://github.com/hongyangAndroid/AndroidAutoLayout        //6.3K
 
+```
 
-
+```
 
 //
     implementation 'me.jessyan:autosize:0.9.5'
@@ -509,6 +510,37 @@
 
 ```
 
+
+```
+//AgentWeb 是一个基于的 Android WebView ，极度容易使用以及功能强大的库，
+//提供了 Android WebView 一系列的问题解决方案 ，并且轻量和极度灵活
+     compile 'com.just.agentweb:agentweb:4.0.2' // (必选)
+     compile 'com.just.agentweb:download:4.0.2' // (可选)
+     compile 'com.just.agentweb:filechooser:4.0.2'// (可选) 
+//      https://github.com/Justson/AgentWeb              //4.5K  
+```
+
+```
+//Android流式布局，支持单选、多选等，适合用于产品标签等。
+    compile 'com.hyman:flowlayout-lib:1.1.2'    
+//      https://github.com/hongyangAndroid/FlowLayout       4.2K
+```
+
+```
+//Clans/FloatingActionButton
+    compile 'com.github.clans:fab:1.6.4'
+//      https://github.com/Clans/FloatingActionButton   //4.3K
+```
+
+
+```
+//支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView
+    compile 'q.rorbin:badgeview:1.1.3'
+//      https://github.com/qstumn/BadgeView     //2.7K
+```
+
+
+
 #### 选择器
 
 ```
@@ -540,20 +572,55 @@
 //      https://github.com/LarsWerkman/HoloColorPicker      //1.2K
 ```
 
-
-
+```
+//MaterialDateTimePicker
+    compile 'com.wdullaer:materialdatetimepicker:3.6.3'
+//      https://github.com/wdullaer/MaterialDateTimePicker  //3.6K
+```
 
 #### 数据库
 
+[【Android 数据库框架总结，总有一个适合你！】](https://blog.csdn.net/da_caoyuan/article/details/61414626)
 
 ```
 
-// ---------------------------------------数据库------------------------------------
+// greenrobot/greenDAO
     compile 'org.greenrobot:greendao:3.2.2' // add library
     compile 'org.greenrobot:greendao-generator:3.2.0'
 //      https://github.com/greenrobot/greenDAO      //10.4K
 
 ```
+
+```
+//郭霖：LitePal
+    compile 'org.litepal.android:core:2.0.0'
+//      https://github.com/LitePalFramework/LitePal //5.3K
+```
+
+
+
+```
+//realm ：   bat都在用，插件引入
+//GitHub地址：    https://github.com/realm/realm-java       //9.9K
+//中文文档：    https://realm.io/cn/docs/java/latest/  
+```
+
+
+```
+//stetho：可在Chrome调试数据库、网络等
+    compile 'com.facebook.stetho:stetho:1.5.0'              
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    compile 'com.facebook.stetho:stetho-urlconnection:1.5.0'
+    compile 'com.facebook.stetho:stetho-js-rhino:1.5.0'
+//      https://github.com/facebook/stetho              //10.2K
+```
+
+```
+//Android-Debug-Database : 调试数据库
+    debugImplementation 'com.amitshekhar.android:debug-db:1.0.4'
+//      https://github.com/amitshekhariitbhu/Android-Debug-Database     //5.1K
+```
+
 
 #### 日志
 
@@ -666,6 +733,13 @@
 
 
 ```
+
+```
+//GitLqr/LQRAudioRecord ： 集成录音与播音功能，使用简单方便
+    compile 'com.lqr.audio:library:1.0.0'
+//      https://github.com/GitLqr/LQRAudioRecord        //205
+```
+
 
 
 #### 调试
