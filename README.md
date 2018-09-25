@@ -7,6 +7,7 @@
 
 [优秀的控件UI库](https://github.com/wasabeef/awesome-android-ui)
 
+[优秀的Android资源收集与整理](https://github.com/AlanCheen/Android-Resources)
 
 # 六个可以让代码变得更整洁的 Android 库
 
@@ -30,7 +31,11 @@
 
 [jeasonlzy](https://github.com/jeasonlzy)
 
-[hongyangAndroid](https://github.com/hongyangAndroid)
+[鸿洋：hongyangAndroid](https://github.com/hongyangAndroid)
+
+[扔物线：rengwuxian](https://github.com/rengwuxian)
+
+[代码家：daimajia](https://github.com/daimajia)
 
 # 优秀项目
 
