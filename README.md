@@ -236,7 +236,9 @@
     // 仅支持 WebP 静态图，需要添加（按需添加）
     compile "com.facebook.fresco:webpsupport:${FRESCO_VERSION}"
 //      https://github.com/facebook/fresco      //14.9K
+```
 
+```
 //Picasso----
     implementation 'com.squareup.picasso:picasso:2.71828'
 //      https://github.com/square/picasso       //15.9K
@@ -246,6 +248,10 @@
     // If you want to use the GPU Filters
     compile 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
 //      https://github.com/wasabeef/picasso-transformations    //1.4K    
+
+```
+
+```
 
 //glide----
     implementation('com.github.bumptech.glide:glide:4.5.0') {
@@ -261,41 +267,59 @@
     // If you want to use the GPU Filters
     implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
 //      https://github.com/wasabeef/glide-transformations       //6.7K
+```
 
+```
 //圆形图片
     compile 'de.hdodenhof:circleimageview:2.2.0'
 //      https://github.com/hdodenhof/CircleImageView        //10.4K
 
+```
 
+```
 //圆角图片
     compile 'com.makeramen:roundedimageview:2.3.0'
 //      https://github.com/vinc3m1/RoundedImageView     //4.9K
 
+```
 
+```
 //手势图片
     compile 'com.github.chrisbanes:PhotoView:2.1.4'
 //      https://github.com/chrisbanes/PhotoView     //13.8K
+```
 
+```
 //仿微信选图
     compile 'me.iwf.photopicker:PhotoPicker:0.9.12@aar'
 //      https://github.com/donglua/PhotoPicker      //2.6K
+```
 
+```
 //自定义相册，实现了拍照、图片选择（单选/多选）、裁剪等
     compile 'com.github.YancyYe:GalleryPick:1.2.1'
 //      https://github.com/YancyYe/GalleryPick
+```
 
+```
 //图片压缩框架
     implementation 'com.zxy.android:tiny:0.1.0'
 //      https://github.com/Sunzxyong/Tiny       //2.0K
+```
 
+```
 //裁剪图片
     compile 'com.soundcloud.android:android-crop:1.0.1@aar'
 //      https://github.com/jdamcd/android-crop  //4.1K
+```
 
+```
 //用于在Android设备上获取照片（拍照或从相册、文件中选择）、裁剪图片、压缩图片的开源工具库
     compile 'com.jph.takephoto:takephoto_library:4.1.0'
 //      https://github.com/crazycodeboy/TakePhoto   //5.5K
+```
 
+```
 //完全仿微信的图片选择，并且提供了多种图片加载接口，选择图片后可以旋转，可以裁剪成矩形或圆形，可以配置各种其他的参数
 	compile 'com.lzy.widget:imagepicker:0.6.1'  //指定版本
 //      https://github.com/jeasonlzy/ImagePicker    //3.2K
@@ -316,6 +340,9 @@
     compile 'com.joanzapata.iconify:android-iconify-ionicons:2.2.2' // (v2.0.1)
 //      https://github.com/JoanZapata/android-iconify       //3.6K
 
+```
+
+```
 //Android-Iconics
     //the core iconcis library (without any widgets)
     implementation "com.mikepenz:iconics-core:3.1.0-rc01"
@@ -400,49 +427,73 @@
 //RecyclerView的辅助适配器
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
 //      https://github.com/CymChad/BaseRecyclerViewAdapterHelper    //14.9K
+```
 
+```
 //RecyclerView下拉刷新和上拉加载更多以及RecyclerView线性、网格、瀑布流效果演示
     compile 'com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2'
 //      https://github.com/WuXiaolong/PullLoadMoreRecyclerView      //1.2K
+```
 
+```
 //RecyclerView侧滑菜单，Item拖拽，滑动删除Item，自动加载更多，HeaderView，FooterView，Item分组黏贴。
     compile 'com.yanzhenjie:recyclerview-swipe:1.1.4'
 //      https://github.com/yanzhenjie/SwipeRecyclerView     //3.4K
+```
 
+```
 //RecyclerView侧滑
     compile 'com.github.AItsuki:SwipeMenuRecyclerView:1.1.3'
 //      https://github.com/AItsuki/SwipeMenuRecyclerView    //125
+```
 
+```
 //listview、GridView、RecyclerView侧滑
     compile "com.daimajia.swipelayout:library:1.2.0@aar"
 //      https://github.com/daimajia/AndroidSwipeLayout      //10.5K
 
+```
+
+```
 //任意view下拉刷新
     compile 'in.srain.cube:ultra-ptr:1.0.11'
 //      https://github.com/liaohuqiu/android-Ultra-Pull-To-Refresh      //9.2K
+```
 
+```
 //材料设计的dialog
     implementation 'com.afollestad.material-dialogs:core:2.0.0-alpha09'
 //      https://github.com/afollestad/material-dialogs      //14.2K
 
+```
+
+```
 //多种下拉刷新效果、上拉加载更多、可配置自定义头部广告位
     implementation 'cn.bingoogolapple:bga-refreshlayout:1.1.8'
 //      https://github.com/bingoogolapple/BGARefreshLayout-Android  //3.7K
+```
 
+```
 //RecyclerView的各种需求封装进库。提升开发效率
     compile 'com.jude:easyrecyclerview:4.4.2'
 //      https://github.com/Jude95/EasyRecyclerView  //1.9K
 
+```
 
+```
 //recyclerview动画
      implementation 'jp.wasabeef:recyclerview-animators:2.3.0'
 //      https://github.com/wasabeef/recyclerview-animators      //8.3K
+```
 
+```
 
 //支持各种刷新
 	compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
 //      https://github.com/Aspsine/SwipeToLoadLayout        //1.9K
+```
 
+```
 
 //android-Ultra-Pull-To-Refresh
     compile 'in.srain.cube:ultra-ptr:1.0.11'
@@ -456,38 +507,59 @@
   compile 'com.nineoldandroids:library:2.4.0'
 //      https://github.com/JakeWharton/NineOldAndroids  //4.4K
 
+```
 
+```
 //loading动画
    compile 'com.wang.avi:library:2.1.3'
 //      https://github.com/81813780/AVLoadingIndicatorView  //7.8K
 
+```
 
+```
 //Android 所有动画系列详尽教程
 //https://github.com/OCNYang/Android-Animation-Set      //977
 
+```
+
+```
 //滑动开关按钮
    	implementation 'com.kyleduo.switchbutton:library:2.0.0'
 //      https://github.com/kyleduo/SwitchButton     //3.7K
 
+```
 
+```
 //选择城市，选择联系人等需要索引的功能
     compile 'me.yokeyword:indexablerecyclerview:1.3.0'
 //      https://github.com/YoKeyword/IndexableRecyclerView      //975
 
+```
+
+```
 
 //日历
   implementation 'com.github.prolificinteractive:material-calendarview:2.0.0'
 //      https://github.com/prolificinteractive/material-calendarview    //4.5K
 
+```
+
+```
 //实现各个方向的气泡弹窗，可控制气泡尖角偏移量。
     compile 'com.yuyh.bubble:library:1.0.0'
 //      https://github.com/smuyyh/BubblePopupWindow     //191
+
+```
+
+```
 
 //MaterialSearchView
     compile 'com.miguelcatalan:materialsearchview:1.4.0'    
 //      https://github.com/MiguelCatalan/MaterialSearchView     //3.2K
 
+```
 
+```
 //ViewPager tab指示
     compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
     //Optional: see how to use the utility.
@@ -496,13 +568,15 @@
     compile 'com.ogaclejapan.smarttablayout:utils-v13:1.6.1@aar'
 //      https://github.com/ogaclejapan/SmartTabLayout       //5.6K
 
+```
 
+```
 //轮播图：无限、自动等
     compile 'com.jude:rollviewpager:1.4.6'
 //      https://github.com/Jude95/RollViewPager/blob/master/README_ch.md    //907
 
-
-
+```
+```
 //探探滑动菜单
     compile 'com.daprlabs.aaron:swipedeck:2.0.6'
 //      https://github.com/aaronbond/SwipeDeck2     //146
@@ -527,7 +601,7 @@
 ```
 
 ```
-//Clans/FloatingActionButton
+//Clans/FloatingActionButton：仿知乎FloatingActionButton浮动按钮
     compile 'com.github.clans:fab:1.6.4'
 //      https://github.com/Clans/FloatingActionButton   //4.3K
 ```
@@ -537,6 +611,60 @@
 //支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView
     compile 'q.rorbin:badgeview:1.1.3'
 //      https://github.com/qstumn/BadgeView     //2.7K
+```
+
+```
+//SwipeDelMenuLayout 侧滑删除 任意的ViewGroup里的childView都可以使用
+    compile 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+//		https://github.com/mcxtzhang/SwipeDelMenuLayout/blob/master/README-cn.md	//2.3K
+```
+
+
+
+```
+//AndroidImageSlider 图片轮播
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+//		https://github.com/daimajia/AndroidImageSlider	//5.1K
+```
+
+
+
+```
+//NumberProgressBar	数字进度条
+   compile 'com.daimajia.numberprogressbar:library:1.4@aar'
+//		https://github.com/daimajia/NumberProgressBar	//5.1K
+```
+
+
+
+```
+//ShineButton 	闪烁动画的按钮，点赞效果等
+    compile 'com.sackcentury:shinebutton:0.2.0'
+//		https://github.com/ChadCSong/ShineButton	//3.4K	
+```
+
+
+```
+//Android-SpinKit 加载loading动画
+   compile 'com.github.ybq:Android-SpinKit:1.1.0'
+//		https://github.com/ybq/Android-SpinKit		//5.2K
+```
+
+
+```
+//sticky-headers-recyclerview	recyclerview粘性头部
+	compile 'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
+//		https://github.com/timehop/sticky-headers-recyclerview	//3.3K	
+```
+
+
+```
+//SmoothProgressBar 炫酷的水平进度条
+    // of course, do not write x.x.x but the version number
+    compile 'com.github.castorflex.smoothprogressbar:library:1.1.0'
+    // or
+    compile 'com.github.castorflex.smoothprogressbar:library-circular:1.3.0'
+//		https://github.com/castorflex/SmoothProgressBar		//4.1K	
 ```
 
 
@@ -573,7 +701,7 @@
 ```
 
 ```
-//MaterialDateTimePicker
+//MaterialDateTimePicker    日期选择器
     compile 'com.wdullaer:materialdatetimepicker:3.6.3'
 //      https://github.com/wdullaer/MaterialDateTimePicker  //3.6K
 ```
@@ -597,6 +725,15 @@
 //      https://github.com/LitePalFramework/LitePal //5.3K
 ```
 
+```
+//DBFlow
+    // if Java use this. If using Kotlin do NOT use this.
+    annotationProcessor "com.github.Raizlabs.DBFlow:dbflow-processor:4.2.4"
+
+    // Use if Kotlin user.
+    kapt "com.github.Raizlabs.DBFlow:dbflow-processor:4.2.4"
+//		https://github.com/Raizlabs/DBFlow		//4.3K
+```
 
 
 ```
@@ -717,6 +854,15 @@
 //      https://github.com/trello/RxLifecycle   //6.1K
 
 ```
+
+
+```
+//FileDownloader Android 文件下载引擎，稳定、高效、灵活、简单易用
+	implementation 'com.liulishuo.filedownloader:library:1.7.5'
+//		https://github.com/lingochamp/FileDownloader/blob/master/README-zh.md	//7.3K
+```
+
+
 
 
 #### 视频播放
