@@ -130,6 +130,11 @@ https://github.com/square/otto
 ```
 https://github.com/hehonghui/AndroidEventBus    
 
+```
+    compile 'com.hwangjr.rxbus:rxbus:1.0.6'
+//1.7K
+```
+https://github.com/AndroidKnife/RxBus
 
 #### <font color="#ff0000">组件传递数据</font>
 ```
