@@ -45,11 +45,15 @@
 
 # 优秀项目
 
+[优秀项目](https://github.com/Ablexq/MyAsDependency/blob/master/%E4%BC%98%E7%A7%80%E9%A1%B9%E7%9B%AE.md)
 
+# 网络相关
+
+[网络相关](https://github.com/Ablexq/MyAsDependency/blob/master/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3.md)
 
 # 优秀的库
 
-#### <font color=#ff0000>基础
+#### <font color="#ff0000">基础</font>
 
 ```
 //---------------------------------------基础------------------------------------------------
@@ -69,7 +73,7 @@
 
 
 
-#### <font color=#ff0000>activity状态保存
+#### <font color=#ff0000>activity状态保存</font>
 
 
 ```
@@ -81,7 +85,7 @@
 https://github.com/frankiesardo/icepick 
 
 
-#### <font color="#ff0000">activity侧滑返回
+#### <font color="#ff0000">activity侧滑返回</font>
 
 ```
 //activity侧滑返回
@@ -91,7 +95,7 @@ https://github.com/frankiesardo/icepick
 https://github.com/bingoogolapple/BGASwipeBackLayout-Android    
 
 
-#### <font color="#ff0000">fragment管理
+#### <font color="#ff0000">fragment管理</font>
 
 ```
 //fragment管理
@@ -100,7 +104,7 @@ https://github.com/bingoogolapple/BGASwipeBackLayout-Android
 ```
 https://github.com/YoKeyword/Fragmentation  
 
-#### <font color="#ff0000">事件总线
+#### <font color="#ff0000">事件总线</font>
 
 
 ```
@@ -127,7 +131,7 @@ https://github.com/square/otto
 https://github.com/hehonghui/AndroidEventBus    
 
 
-#### <font color="#ff0000">组件传递数据
+#### <font color="#ff0000">组件传递数据</font>
 ```
 
 //Extra是Android标准的组件之间（Activity/Fragment/Service等）传递数据的方式。Dart的使用，它优雅的处理了组件间跳转和数据传递
@@ -140,7 +144,7 @@ https://github.com/hehonghui/AndroidEventBus
 ```
 https://github.com/f2prateek/dart       
 
-#### <font color="#ff0000">二维码扫描
+#### <font color="#ff0000">二维码扫描</font>
 
 ```
 //二维码扫描
@@ -164,7 +168,7 @@ https://github.com/zxing/zxing
 ```
 https://github.com/xuyisheng/ZXingLib     
 
-#### <font color="#ff0000">View注入框架
+#### <font color="#ff0000">View注入框架</font>
 
 ```
 
@@ -186,7 +190,7 @@ https://github.com/JakeWharton/butterknife
 https://github.com/google/dagger    
 
 
-#### <font color="#ff0000">动态权限
+#### <font color="#ff0000">动态权限</font>
 
 https://blog.csdn.net/totond/article/details/73648103 以下三者对比
 
@@ -221,7 +225,7 @@ https://github.com/googlesamples/easypermissions
 https://github.com/yanzhenjie/AndPermission  
 
 
-#### <font color="#ff0000">图片
+#### <font color="#ff0000">图片</font>
 
 ```
 
@@ -343,7 +347,7 @@ https://github.com/crazycodeboy/TakePhoto
 ```
 https://github.com/jeasonlzy/ImagePicker    
 
-#### <font color="#ff0000">图标库
+#### <font color="#ff0000">图标库</font>
 
 ```
 //图标icon库:android-iconify
@@ -384,7 +388,7 @@ https://github.com/JoanZapata/android-iconify
 https://github.com/mikepenz/Android-Iconics     
 
 
-#### <font color="#ff0000">屏幕适配
+#### <font color="#ff0000">屏幕适配</font>
 
 ```
 //-----------------------------------------屏幕适配-----------------------------------------
@@ -404,7 +408,7 @@ https://github.com/hongyangAndroid/AndroidAutoLayout
 https://github.com/JessYanCoding/AndroidAutoSize        
 
 
-#### <font color="#ff0000">工具类
+#### <font color="#ff0000">工具类</font>
 
 ```
 //工具类
@@ -415,14 +419,14 @@ https://github.com/Blankj/AndroidUtilCode/blob/master/utilcode/README-CN.md
 https://github.com/Blankj/AndroidUtilCode/blob/master/subutil/README-CN.md
 
 
-#### <font color="#ff0000">google推送
+#### <font color="#ff0000">google推送</font>
 
 ```
 //firebase的功能包括推送通知，云存储，活动监视，远程部署,Google推出的一个云端服务，使用免费但须翻墙
     compile 'com.google.firebase:firebase-core:9.0.2'
 ```
 
-#### <font color="#ff0000">序列化：
+#### <font color="#ff0000">序列化</font>
 
 ```
 //Parceler 是一个代码代码生成器包，用于生成Android Parcelable 模板代码。
@@ -433,7 +437,7 @@ https://github.com/Blankj/AndroidUtilCode/blob/master/subutil/README-CN.md
 https://github.com/johncarl81/parceler      
 
 
-#### <font color="#ff0000">java解析HTML
+#### <font color="#ff0000">java解析HTML</font>
 
 ```
 //jsoup
@@ -442,7 +446,7 @@ https://github.com/johncarl81/parceler
 https://jsoup.org/download  
 http://www.open-open.com/jsoup/     使用文档
 
-#### <font color="#ff0000">控件
+#### <font color="#ff0000">控件</font>
 
 ```
 //RecyclerView的辅助适配器
@@ -706,7 +710,7 @@ https://github.com/castorflex/SmoothProgressBar
 
 
 
-#### <font color="#ff0000">选择器
+#### <font color="#ff0000">选择器</font>
 
 ```
     /*--------------------------------选择器--------------------------------------*/
@@ -731,7 +735,7 @@ https://github.com/Bigkoo/Android-PickerView
 ```
 https://github.com/gzu-liyujiang/AndroidPicker  
 
-#### <font color="#ff0000">颜色选择器
+#### <font color="#ff0000">颜色选择器</font>
 
 ```
 //颜色选择器
@@ -747,7 +751,7 @@ https://github.com/LarsWerkman/HoloColorPicker
 ```
 https://github.com/wdullaer/MaterialDateTimePicker  
 
-#### <font color="#ff0000">数据库
+#### <font color="#ff0000">数据库</font>
 
 [【Android 数据库框架总结，总有一个适合你！】](https://blog.csdn.net/da_caoyuan/article/details/61414626)
 
@@ -805,7 +809,7 @@ https://github.com/facebook/stetho
 https://github.com/amitshekhariitbhu/Android-Debug-Database     
 
 
-#### <font color="#ff0000">日志
+#### <font color="#ff0000">日志</font>
 
 
 ```
@@ -821,7 +825,7 @@ https://github.com/orhanobut/logger
 https://github.com/JakeWharton/timber       
 
 
-#### <font color="#ff0000">状态栏
+#### <font color="#ff0000">状态栏</font>
 
 ```
 //状态栏
@@ -838,7 +842,7 @@ https://github.com/laobie/StatusBarUtil
 https://github.com/jgilfelt/SystemBarTint       
 
 
-#### <font color="#ff0000">网络
+#### <font color="#ff0000">网络</font>
 
 ```
 //---------------------------------------网络------------------------------------------
@@ -916,7 +920,7 @@ https://github.com/trello/RxLifecycle
 https://github.com/lingochamp/FileDownloader/blob/master/README-zh.md	
 
 
-#### <font color="#ff0000">视频播放
+#### <font color="#ff0000">视频播放</font>
 
 ```
 
@@ -940,7 +944,7 @@ https://github.com/CarGuo/GSYVideoPlayer
 ```
 https://github.com/GitLqr/LQRAudioRecord        
 
-#### <font color="#ff0000">调试
+#### <font color="#ff0000">调试</font>
 
 ```
 //stetho
