@@ -235,40 +235,6 @@ https://jsoup.org/download
 http://www.open-open.com/jsoup/     使用文档
 
 
-
-#### <font color="#ff0000">日志</font>
-
-
-```
-    implementation 'com.orhanobut:logger:2.2.0'
-//9.8K
-```
-https://github.com/orhanobut/logger     
-
-```
-    implementation 'com.jakewharton.timber:timber:4.7.1'
-//6.0K
-```
-https://github.com/JakeWharton/timber       
-
-
-#### <font color="#ff0000">状态栏</font>
-
-```
-//状态栏
-    compile 'com.jaeger.statusbarutil:library:1.5.1'
-//6.1K
-```
-https://github.com/laobie/StatusBarUtil     
-
-```
-//systembartint
-    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
-//5.0K
-```
-https://github.com/jgilfelt/SystemBarTint       
-
-
 #### <font color="#ff0000">调试</font>
 
 ```
@@ -312,3 +278,67 @@ https://github.com/square/leakcanary
     compile 'com.pgyersdk:sdk:2.8.1'
 ```
 https://www.pgyer.com/doc/view/sdk_android_guide
+
+
+#### 路由
+```
+//alibaba/ARouter
+//7.5K
+```
+https://github.com/alibaba/ARouter  
+中文文档：
+https://github.com/alibaba/ARouter/blob/master/README_CN.md
+
+
+#### 文件操作
+```
+   // io
+    api 'commons-io:commons-io:2.6'
+```
+
+
+#### 时间格式化
+```
+    compile 'org.ocpsoft.prettytime:prettytime:4.0.1.Final'
+//965
+```
+https://github.com/ocpsoft/prettytime
+
+
+```
+    api 'joda-time:joda-time:2.9.9'
+```
+
+
+
+#### Android Signature V2 Scheme签名下的新一代渠道包打包神器
+```
+    compile 'com.meituan.android.walle:library:1.1.6'
+//3.6K
+```
+https://github.com/Meituan-Dianping/walle
+
+
+#### Android资源混淆工具(微信团队)
+5.1K
+https://github.com/shwenzhang/AndResGuard/blob/master/README.zh-cn.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
