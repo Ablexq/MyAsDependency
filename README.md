@@ -9,6 +9,12 @@
 
 [优秀的Android资源收集与整理](https://github.com/AlanCheen/Android-Resources)
 
+[java面试：Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)//6.4K
+
+[android面试：The top Internet companies android interview questions and answers](http://www.jackywang.tech/AndroidInterview-Q-A/)
+
+[android面试：guoxiaoxing/android-interview](https://github.com/guoxiaoxing/android-interview) //1.2K
+
 # 六个可以让代码变得更整洁的 Android 库
 
 1.butterknife
@@ -104,97 +110,6 @@ https://github.com/bingoogolapple/BGASwipeBackLayout-Android
 ```
 https://github.com/YoKeyword/Fragmentation  
 
-#### <font color="#ff0000">事件总线</font>
-
-
-```
-
-//-------------------------------------事件总线-----------------------------------------
-//事件总线框架, 它简化了Activity、Fragment、Service等组件之间的交互，
-//很大程度上降低了它们之间的耦合，使得我们的代码更加简洁，耦合性更低，提升我们的代码质量。
-    compile 'org.greenrobot:eventbus:3.1.1'
-//19.2K
-```
-https://github.com/greenrobot/EventBus      
-
-```
-//
-    implementation 'com.squareup:otto:1.3.8'
-//5.1K
-```
-https://github.com/square/otto      
-
-```
-	compile 'org.simple:androideventbus:1.0.5.1'
-//1.4K (停止维护)
-```
-https://github.com/hehonghui/AndroidEventBus    
-
-```
-    compile 'com.hwangjr.rxbus:rxbus:1.0.6'
-//1.7K
-```
-https://github.com/AndroidKnife/RxBus
-
-#### <font color="#ff0000">组件传递数据</font>
-```
-
-//Extra是Android标准的组件之间（Activity/Fragment/Service等）传递数据的方式。Dart的使用，它优雅的处理了组件间跳转和数据传递
-    implementation 'com.f2prateek.dart:dart-annotations:3.0.1'
-    implementation 'com.f2prateek.dart:dart:3.0.1'
-    implementation 'com.f2prateek.dart:henson:3.0.1'
-    annotationProcessor 'com.f2prateek.dart:dart-processor:3.0.1'
-    annotationProcessor 'com.f2prateek.dart:henson-processor:3.0.1'
-//1.1K
-```
-https://github.com/f2prateek/dart       
-
-#### <font color="#ff0000">二维码扫描</font>
-
-```
-//二维码扫描
-    implementation 'cn.bingoogolapple:bga-qrcode-zxing:1.2.5'
-    implementation 'cn.bingoogolapple:bga-qrcode-zbar:1.2.5'
-//4.3K
-```
-https://github.com/bingoogolapple/BGAQRCode-Android     
-
-```
-//Google提供二维码扫描
-    compile 'com.google.zxing:core:3.3.0'   
-//19.9K
-```
-https://github.com/zxing/zxing      
-
-
-```
-//xuyisheng/ZXingLib
-//362
-```
-https://github.com/xuyisheng/ZXingLib     
-
-#### <font color="#ff0000">View注入框架</font>
-
-```
-
-//--------------------------------View注入框架-------------------------------------
-//butterknife:避免在代码里写大量的findViewById
-    implementation 'com.jakewharton:butterknife:8.8.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-22.0K
-```
-https://github.com/JakeWharton/butterknife      
-
-
-```
-//依赖注入是面向对象编程的一种设计模式，其目的是为了降低程序耦合，这个耦合就是类之间的依赖引起的.
-    compile"com.google.dagger:dagger:2.14.1"
-    annotationProcessor"com.google.dagger:dagger-compiler:2.14.1"
-//11.8K
-```
-https://github.com/google/dagger    
-
-
 
 #### <font color="#ff0000">工具类</font>
 
@@ -234,50 +149,6 @@ https://github.com/johncarl81/parceler
 https://jsoup.org/download  
 http://www.open-open.com/jsoup/     使用文档
 
-
-#### <font color="#ff0000">调试</font>
-
-```
-//stetho
-    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
-    compile 'com.facebook.stetho:stetho-urlconnection:1.5.0'
-    compile 'com.facebook.stetho:stetho-js-rhino:1.5.0'
-//10.2K    
-```    
-https://github.com/facebook/stetho      
-
-```
-//blockcanary：卡顿检测
-    compile 'com.github.markzhai:blockcanary-android:1.5.0'
-//4.4K
-```
-https://github.com/markzhai/AndroidPerformanceMonitor   
-
-```
-//blockcanary改进版
-    debugCompile 'com.letv.sarrsdesktop:BlockCanaryExJRT:0.9.9.4'
-    releaseCompile 'com.letv.sarrsdesktop:BlockCanaryExJRTNoOp:0.9.9.4'
-    testCompile 'com.letv.sarrsdesktop:BlockCanaryExJRTNoOp:0.9.9.4'
-//1.8K    
-```
-https://github.com/seiginonakama/BlockCanaryEx  
-
-```
-//leakcanary：内存泄漏检测
-    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.6.1'
-    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.6.1'
-    // Optional, if you use support library fragments:
-    debugImplementation 'com.squareup.leakcanary:leakcanary-support-fragment:1.6.1'
-//20.5K
-```
-https://github.com/square/leakcanary    
-
-
-```
-//蒲公英是应用托管平台，有内测 + 分发 + 更新 + Crash上报 + 反馈 + Bug云管理 + 专家测试 + iso加速审核等功能
-    compile 'com.pgyersdk:sdk:2.8.1'
-```
-https://www.pgyer.com/doc/view/sdk_android_guide
 
 
 #### 路由
