@@ -19,6 +19,8 @@
 
 [2017Android面试回忆录](https://github.com/soulrelay/InterviewMemoirs)
 
+[Android 技能图谱学习路线](https://www.jianshu.com/p/88e32ef66ef2)
+
 # 六个可以让代码变得更整洁的 Android 库
 
 1.butterknife
