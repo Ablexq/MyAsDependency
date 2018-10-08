@@ -95,4 +95,31 @@ https://github.com/YoKeyword/IndexableRecyclerView
 https://github.com/Aspsine/SwipeToLoadLayout
 
 
+# zhou-you/EasyXRecyclerView 
+主要提供了简单易用强大的RecyclerView库，
+包括自定义刷新加载效果、极简通用的万能适配器Adapter、万能分割线、多种分组效果、
+常见状态页面、item动画效果、添加多个header和footer、侧滑、拖拽、Sticky（黏性）效果、多item布局等,
+各模块之间灵活、解耦、通用、又能相互组合使用。
+```
+ compile 'com.zhouyou:easyrecyclerview:1.0.5'
+//316
+```
+https://github.com/zhou-you/EasyXRecyclerView
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

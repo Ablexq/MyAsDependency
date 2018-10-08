@@ -27,4 +27,51 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
+
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+
+    //多功能
+    compile 'com.zhouyou:easyrecyclerview:1.0.5'
+    compile 'com.jude:easyrecyclerview:4.4.2'
+
+    //吸顶
+    compile 'se.emilsjolander:stickylistheaders:2.7.0'
+
+    compile 'com.timehop.stickyheadersrecyclerview:library:[0.4.3]@aar'
+
+    //上拉刷新下拉加载
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
+
+    compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
+
+    compile 'com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2'
+
+    //侧滑删除
+    compile 'com.yanzhenjie:recyclerview-swipe:1.1.4'
+
+    //万能适配器
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
