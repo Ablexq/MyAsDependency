@@ -1,4 +1,6 @@
 
+[全家桶系列之刷新、加载更多、悬浮、左滑删除](https://github.com/soulrelay/StickyListHeadersWithRefreshAndLoadMore)
+
 # recycler适配器
 
 ```
@@ -23,14 +25,14 @@ https://github.com/yanzhenjie/SwipeRecyclerView
 ```
 //sticky-headers-recyclerview	recyclerview粘性头部
 	compile 'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar'
-//3.3K	
+//3.3K	 停止维护
 ```
-https://github.com/timehop/sticky-headers-recyclerview	
+https://github.com/timehop/sticky-headers-recyclerview	 
 
 # 吸顶
 ```
     compile 'se.emilsjolander:stickylistheaders:x.x.x'
-//5.3K
+//5.3K  推荐
 ```
 https://github.com/emilsjolander/StickyListHeaders
 
@@ -85,8 +87,12 @@ https://github.com/YoKeyword/IndexableRecyclerView
 ```
  https://github.com/daimajia/AndroidSwipeLayout  
 
-
-
+# Aspsine/SwipeToLoadLayout  下拉刷新 上拉加载更多
+```
+	compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
+//1.9K
+```
+https://github.com/Aspsine/SwipeToLoadLayout
 
 
 

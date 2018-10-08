@@ -15,6 +15,8 @@
 
 [android面试：guoxiaoxing/android-interview](https://github.com/guoxiaoxing/android-interview) //1.2K
 
+[关于Android分享的目录 - 送给开发者的一份礼物](https://www.jianshu.com/p/780658b79227)
+
 # 六个可以让代码变得更整洁的 Android 库
 
 1.butterknife
