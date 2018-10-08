@@ -27,6 +27,13 @@ https://github.com/yanzhenjie/SwipeRecyclerView
 ```
 https://github.com/timehop/sticky-headers-recyclerview	
 
+# 吸顶
+```
+    compile 'se.emilsjolander:stickylistheaders:x.x.x'
+//5.3K
+```
+https://github.com/emilsjolander/StickyListHeaders
+
 # 上拉加载等
 
 ```
@@ -77,7 +84,6 @@ https://github.com/YoKeyword/IndexableRecyclerView
 //10.5K
 ```
  https://github.com/daimajia/AndroidSwipeLayout  
-
 
 
 
