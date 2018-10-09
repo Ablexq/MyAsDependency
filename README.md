@@ -21,6 +21,10 @@
 
 [Android 技能图谱学习路线](https://www.jianshu.com/p/88e32ef66ef2)
 
+[2019校招Android面试题解1.0（中篇）](https://www.jianshu.com/p/2dd855aa1938)
+
+[2017上半年技术文章集合—184篇文章分类汇总](https://blog.csdn.net/androidstarjack/article/details/77923753)
+
 # 六个可以让代码变得更整洁的 Android 库
 
 1.butterknife
