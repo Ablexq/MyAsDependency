@@ -1,6 +1,17 @@
 
 [全家桶系列之刷新、加载更多、悬浮、左滑删除](https://github.com/soulrelay/StickyListHeadersWithRefreshAndLoadMore)
 
+# 辅助库 alibaba/vlayout
+```
+//VirtualLayout是一个针对RecyclerView的LayoutManager扩展, 
+//主要提供一整套布局方案和布局间的组件复用的问题。
+  compile ('com.alibaba.android:vlayout:1.2.8@aar') {
+  	transitive = true
+  }
+//8.5K
+```
+https://github.com/alibaba/vlayout/blob/master/README-ch.md
+
 # recycler适配器
 
 ```
