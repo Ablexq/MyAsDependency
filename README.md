@@ -21,6 +21,10 @@
 
 [Android 技能图谱学习路线](https://www.jianshu.com/p/88e32ef66ef2)
 
+[2019校招Android面试题解1.0（中篇）](https://www.jianshu.com/p/2dd855aa1938)
+
+[2017上半年技术文章集合—184篇文章分类汇总](https://blog.csdn.net/androidstarjack/article/details/77923753)
+
 # 六个可以让代码变得更整洁的 Android 库
 
 1.butterknife
@@ -49,11 +53,15 @@
 
 [代码家：daimajia](https://github.com/daimajia)
 
+[yangchong211](https://github.com/yangchong211)
+
 # 快速开发框架
 
 [TommyLemon/Android-ZBLibrary](https://github.com/TommyLemon/Android-ZBLibrary) //2.8K
 
 [jiangqqlmj/FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)     //2.6K
+
+[一些开源工具类（作者GitHubdemo挺好）](https://github.com/tuacy/ViewMove/blob/master/common/src/main/java/com/pilot/common/utils/TimeUtils.java)
 
 # 优秀项目
 
@@ -202,11 +210,23 @@ https://github.com/shwenzhang/AndResGuard/blob/master/README.zh-cn.md
 
 
 
+### 状态切换
+```
+//内容界面
+//加载数据中
+//加载数据错误
+//加载后没有数据
+//没有网络
+    compile 'cn.yc:YCStateLib:1.1.5
+//95
+```
+https://github.com/yangchong211/YCStateLayout
 
+状态切换布局，使用场景（网路数据请求的时候，正在请求数据，请求数据失败，请求数据成功多种状态下显示不同的布局）。
+https://github.com/tuacy/StateSwitchLayout
 
-
-
-
+Android 加载成功、加载失败、加载中、无数据四个不同界面的切换
+https://blog.csdn.net/zhaozhuzi/article/details/73822894
 
 
 
