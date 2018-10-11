@@ -55,6 +55,9 @@
 
 [yangchong211](https://github.com/yangchong211)
 
+[android开发艺术探索作者：任玉刚的CSDN](https://blog.csdn.net/singwhatiwanna)
+
+
 # 快速开发框架
 
 [TommyLemon/Android-ZBLibrary](https://github.com/TommyLemon/Android-ZBLibrary) //2.8K
