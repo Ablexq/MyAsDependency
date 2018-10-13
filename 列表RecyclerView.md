@@ -117,10 +117,14 @@ https://github.com/Aspsine/SwipeToLoadLayout
 ```
 https://github.com/zhou-you/EasyXRecyclerView
 
-
-
-
-
+# 具有加载效果
+sharish/ShimmerRecyclerView
+具有微光视图的自定义回收器视图，用于指示正在加载视图
+```
+    implementation 'com.github.sharish:ShimmerRecyclerView:v1.3'
+//2.3K
+```
+https://github.com/sharish/ShimmerRecyclerView
 
 
 

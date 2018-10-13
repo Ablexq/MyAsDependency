@@ -110,6 +110,8 @@ https://github.com/frankiesardo/icepick
 
 #### <font color="#ff0000">activity侧滑返回</font>
 
+bingoogolapple/BGASwipeBackLayout-Android
+Android Activity 滑动返回。支持微信滑动返回样式、横屏滑动返回、全屏滑动返回
 ```
 //activity侧滑返回
     compile 'cn.bingoogolapple:bga-swipebacklayout:1.1.9'
@@ -117,6 +119,14 @@ https://github.com/frankiesardo/icepick
 ```
 https://github.com/bingoogolapple/BGASwipeBackLayout-Android    
 
+
+ikew0ng/SwipeBackLayout
+可用SwipeBackLayout实现滑动关闭当前Activity
+```
+    compile 'me.imid.swipebacklayout.lib:library:1.1.0'
+//5.3K
+```
+https://github.com/ikew0ng/SwipeBackLayout
 
 #### <font color="#ff0000">fragment管理</font>
 
