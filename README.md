@@ -40,6 +40,14 @@
 6.Dagger和Dagger2
 
 
+# 常见库汇总
+
+[Android主流UI开源库整理](https://www.jianshu.com/p/47a4a7b99364)
+
+[Android 开源项目分类汇总](https://github.com/Trinea/android-open-project)
+
+[List of Android UI/UX Libraries](https://github.com/wasabeef/awesome-android-ui)
+
 # 大神的GitHub
 
 
