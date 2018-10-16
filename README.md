@@ -50,12 +50,12 @@
 
 [android 优秀框架整理](https://blog.csdn.net/huangxiaoguo1/article/details/79032186)
 
-# 大神的GitHub
+# 大神榜
 
 
-[JessYan](https://github.com/JessYanCoding)
+[JessYan：MVPArms作者](https://github.com/JessYanCoding)
 
-[jeasonlzy](https://github.com/jeasonlzy)
+[jeasonlzy：OkGo作者](https://github.com/jeasonlzy)
 
 [鸿洋：hongyangAndroid](https://github.com/hongyangAndroid)
 
@@ -65,8 +65,23 @@
 
 [yangchong211](https://github.com/yangchong211)
 
-[android开发艺术探索作者：任玉刚的CSDN](https://blog.csdn.net/singwhatiwanna)
+[任玉刚：android开发艺术探索](https://blog.csdn.net/singwhatiwanna)
 
+[郭霖：第一行代码](https://blog.csdn.net/guolin_blog/)
+
+[江清清CSDN：FastDev4Android](https://blog.csdn.net/column/details/fastdev4android.html)
+
+[徐宜生：android群英传](https://blog.csdn.net/eclipsexys/article/details/80556224)
+
+[MRsimple:从小工到专家](https://blog.csdn.net/bboyfeiyu/article/details/73716633)
+
+[严振杰](https://blog.csdn.net/yanzhenjie1003/article/details/53046027)
+
+[一叶飘舟](https://blog.csdn.net/jdsjlzx/article/details/51462577)
+
+[启舰：vivo](https://blog.csdn.net/harvic880925/article/details/82959754)
+
+[杨充](https://blog.csdn.net/m0_37700275/article/details/83038714)
 
 # 快速开发框架
 
