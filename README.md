@@ -79,9 +79,11 @@
 
 [一叶飘舟](https://blog.csdn.net/jdsjlzx/article/details/51462577)
 
-[启舰：vivo](https://blog.csdn.net/harvic880925/article/details/82959754)
+[启舰：vivo：Android自定义控件入门与实战](https://blog.csdn.net/harvic880925/article/details/82959754)
 
 [杨充](https://blog.csdn.net/m0_37700275/article/details/83038714)
+
+[逆流的鱼yuiop:音视频专家](https://blog.csdn.net/hejjunlin/article/details/82979353)
 
 # 快速开发框架
 
