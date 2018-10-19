@@ -57,13 +57,17 @@
 
 [jeasonlzy：OkGo作者](https://github.com/jeasonlzy)
 
-[鸿洋：hongyangAndroid](https://github.com/hongyangAndroid)
+[鸿洋GitHub：hongyangAndroid](https://github.com/hongyangAndroid)
+
+[鸿洋的CSDN](https://blog.csdn.net/lmj623565791)
 
 [扔物线：rengwuxian](https://github.com/rengwuxian)
 
 [代码家：daimajia](https://github.com/daimajia)
 
 [yangchong211](https://github.com/yangchong211)
+
+[杨充](https://blog.csdn.net/m0_37700275/article/details/83038714)
 
 [任玉刚：android开发艺术探索](https://blog.csdn.net/singwhatiwanna)
 
@@ -81,7 +85,6 @@
 
 [启舰：vivo：Android自定义控件入门与实战](https://blog.csdn.net/harvic880925/article/details/82959754)
 
-[杨充](https://blog.csdn.net/m0_37700275/article/details/83038714)
 
 [逆流的鱼yuiop:音视频专家](https://blog.csdn.net/hejjunlin/article/details/82979353)
 
