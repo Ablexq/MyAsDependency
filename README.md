@@ -9,35 +9,8 @@
 
 [优秀的Android资源收集与整理](https://github.com/AlanCheen/Android-Resources)
 
-[java面试：Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)//6.4K
-
-[android面试：The top Internet companies android interview questions and answers](http://www.jackywang.tech/AndroidInterview-Q-A/)
-
-[android面试：guoxiaoxing/android-interview](https://github.com/guoxiaoxing/android-interview) //1.2K
-
-[关于Android分享的目录 - 送给开发者的一份礼物](https://www.jianshu.com/p/780658b79227)
-
-[2017Android面试回忆录](https://github.com/soulrelay/InterviewMemoirs)
-
-[Android 技能图谱学习路线](https://www.jianshu.com/p/88e32ef66ef2)
-
-[2019校招Android面试题解1.0（中篇）](https://www.jianshu.com/p/2dd855aa1938)
-
 [2017上半年技术文章集合—184篇文章分类汇总](https://blog.csdn.net/androidstarjack/article/details/77923753)
 
-# 六个可以让代码变得更整洁的 Android 库
-
-1.butterknife
-
-2.icepick
-
-3.Dart 和Henson
-
-4.Parceler
-
-5.Timber
-
-6.Dagger和Dagger2
 
 
 # 常见库汇总
