@@ -27,6 +27,8 @@
 
 [常用的工具类](https://github.com/l123456789jy/Lazy)
 
+[Android优秀开源框架汇总](https://github.com/Ericsongyl/AOSF)
+
 # 大神榜
 
 
@@ -63,7 +65,8 @@
 [启舰：vivo：Android自定义控件入门与实战](https://blog.csdn.net/harvic880925/article/details/82959754)
 
 
-[逆流的鱼yuiop:音视频专家](https://blog.csdn.net/hejjunlin/article/details/82979353)
+[逆流的鱼yuiop:音视频专家 :csdn](https://blog.csdn.net/hejjunlin/article/details/82979353)
+[逆流的鱼yuiop:音视频专家 :github](https://github.com/hejunlin2013)
 
 # 快速开发框架
 
