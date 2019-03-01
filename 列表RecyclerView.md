@@ -127,8 +127,17 @@ sharish/ShimmerRecyclerView
 https://github.com/sharish/ShimmerRecyclerView
 
 
+# jdsjlzx/LRecyclerView
 
+LRecyclerView是支持addHeaderView、 addFooterView、下拉刷新、分页加载数据的RecyclerView。
 
+它对 RecyclerView 控件进行了拓展，给RecyclerView增加HeaderView、FooterView，并且不需要对你的Adapter做任何修改。
+
+```   
+    implementation 'com.github.jdsjlzx:LRecyclerView:1.5.4.3'
+//2.1K
+```
+https://github.com/jdsjlzx/LRecyclerView
 
 
 
