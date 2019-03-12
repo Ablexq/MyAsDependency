@@ -55,6 +55,7 @@ dependencies {
     //万能适配器
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
 
+    compile 'org.greenrobot:eventbus:3.1.1'
 
 
 
