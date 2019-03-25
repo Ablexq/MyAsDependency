@@ -9,7 +9,7 @@
 
 [【开发经验】浅谈flutter的优点与缺点](https://segmentfault.com/a/1190000017164263?utm_source=tag-newest)
 
-[]()
+[推荐 技术胖: Flutter 44集免费基础视频教程](https://juejin.im/post/5c452bac6fb9a049af6d919a)
 
 2018年6月21日Google发布Flutter首个release预览版,Google baba大力推出的一种基于【dart语言】、全新的【响应式】，【跨平台】，【高性能】的移动开发框架.
 
