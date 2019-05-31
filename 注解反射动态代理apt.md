@@ -24,11 +24,30 @@ Android编译时注解框架系列博客。
 
 [google/dagger](https://github.com/google/dagger)
 
+```
+//依赖注入是面向对象编程的一种设计模式，其目的是为了降低程序耦合，这个耦合就是类之间的依赖引起的.
+    compile"com.google.dagger:dagger:2.14.1"
+    annotationProcessor"com.google.dagger:dagger-compiler:2.14.1"
+```
+https://github.com/google/dagger
+
+
 13.6K
 
 # butterknife
 
 [JakeWharton/butterknife](https://github.com/JakeWharton/butterknife)
+
+
+```
+
+//View注入框架
+//butterknife:避免在代码里写大量的findViewById
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+```
+https://github.com/JakeWharton/butterknife
+
 
 23.9K
 
