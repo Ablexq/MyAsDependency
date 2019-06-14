@@ -145,16 +145,6 @@ https://github.com/ikew0ng/SwipeBackLayout
 https://github.com/YoKeyword/Fragmentation  
 
 
-#### <font color="#ff0000">工具类</font>
-
-```
-//工具类
-    implementation 'com.blankj:utilcode:1.20.3'
-//19.9K
-```
-https://github.com/Blankj/AndroidUtilCode/blob/master/utilcode/README-CN.md     
-https://github.com/Blankj/AndroidUtilCode/blob/master/subutil/README-CN.md
-
 
 #### <font color="#ff0000">google推送</font>
 
