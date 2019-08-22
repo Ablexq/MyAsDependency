@@ -1,12 +1,11 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    compileSdkVersion 28
     defaultConfig {
         applicationId "com.xq.myasdependency"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,42 +19,42 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
 
-    compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:cardview-v7:25.3.1'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:cardview-v7:28.0.0'
 
     //多功能
-    compile 'com.zhouyou:easyrecyclerview:1.0.5'
-    compile 'com.jude:easyrecyclerview:4.4.2'
+    implementation 'com.zhouyou:easyrecyclerview:1.0.5'
+    implementation 'com.jude:easyrecyclerview:4.4.2'
 
     //吸顶
-    compile 'se.emilsjolander:stickylistheaders:2.7.0'
+    implementation 'se.emilsjolander:stickylistheaders:2.7.0'
 
-    compile 'com.timehop.stickyheadersrecyclerview:library:[0.4.3]@aar'
+    implementation 'com.timehop.stickyheadersrecyclerview:library:[0.4.3]@aar'
 
     //上拉刷新下拉加载
-    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
-    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14'
 
-//    compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
+//    implementation 'com.github.Aspsine:SwipeToLoadLayout:1.0.4'
 
-    compile 'com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2'
+    implementation 'com.wuxiaolong.pullloadmorerecyclerview:library:1.1.2'
 
     //侧滑删除
-    compile 'com.yanzhenjie:recyclerview-swipe:1.1.4'
+    implementation 'com.yanzhenjie:recyclerview-swipe:1.1.4'
 
     //万能适配器
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
 
-    compile 'org.greenrobot:eventbus:3.1.1'
+    implementation 'org.greenrobot:eventbus:3.1.1'
 
 
 

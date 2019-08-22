@@ -3,4 +3,87 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--swipe-->
+    <color name="red_normal">#FF566B</color>
+    <color name="red_pressed">#FF6666</color>
+
+    <color name="dialogutil_ios_btntext_blue">#007aff</color>
+    <color name="dialogutil_text_title_11">#111111</color>
+    <color name="dialogutil_text_msg_33">#333333</color>
+    <color name="dialogutil_text_input_44">#444444</color>
+
+
+    <color name="dialogutil_text_item_33">#333333</color>
+    <color name="dialogutil_btn_alert">#222222</color>
+    <color name="dialogutil_line_dd">#cccccc</color>
+    <color name="dialogutil_ios_btn_normal">#ffffff</color>
+    <color name="dialogutil_ios_btn_pressed">#eeeeee</color>
+    <color name="dialogutil_bg_white">#ffffff</color>
+    <color name="dialogutil_text_gray">#999999</color>
+    <color name="dialogutil_text_gray_light">#B3B3B3</color>
+    <color name="dialogutil_text_black">#333333</color>
+    <color name="dialogutil_text_black_light" >#666666</color>
+    <color name="dialogutil_text_black_lighter" >#999999</color>
+
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <color name="black_de">#DE000000</color>
+
+
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+
+    <!--pop-->
+    <color name="pop_bg_content">#F9F9F9</color>
+    <color name="pop_bg_translucent">#01000000</color>
+    <color name="pop_bg_translucent_half">#77000000</color>
+
+    <color name="pop_item_text_normal_color">#007AFF</color>
+    <color name="pop_item_text_warning_color">#FF3B30</color>
+    <color name="pop_item_bg_pressed">#EBEBEB</color>
+
+
+    <color name="pop_action_sheet_title">#4d4d4d</color>
+    <color name="pop_action_sheet_message">#8f8f8f</color>
+
+
+    <!--carsourceView-->
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">
+        @color/vpi__bright_foreground_holo_light
+    </color>
+    <color name="vpi__bright_foreground_inverse_holo_light">
+        @color/vpi__bright_foreground_holo_dark
+    </color>
+
+
+
+    <color name="uncompleted_color">#A3E0D9</color>
+    <color name="uncompleted_text_color">#F8F8F8</color>
+
+
+    <!--tagflowlayout-->
+
+    <color name="primary_text">#de000000</color>
+    <color name="secondary_text">#8a000000</color>
+    <color name="tag_layout_bg">#def2f2f2</color>
+    <color name="dividers">#1f000000</color>
+    <color name="white">#FFFFFF</color>
 </resources>
