@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dialogutil_round_corner">5dp</dimen>
+    <dimen name="dialogutil_line_1px">1px</dimen>
+
+    <dimen name="dialogutil_btn_txt_size">14sp</dimen>
+    <dimen name="dialogutil_title_txt_size">17sp</dimen>
+    <dimen name="dialogutil_msg_txt_size">14sp</dimen>
+    <dimen name="dialogutil_item_txt_size">14sp</dimen>
+    <dimen name="dialogutil_input_txt_size">14sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="action_button_height">32dp</dimen>
+    <dimen name="action_button_text_size">14sp</dimen>
+    <dimen name="action_button_min_width">56dp</dimen>
+    <dimen name="action_button_padding_horizontal">4dp</dimen>
+    <dimen name="avatar_height_64">64dp</dimen>
+
+
+
+    <!-- 顶部按钮栏高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+
+    <!-- 顶部按钮padding -->
+    <dimen name="pickerview_topbar_padding">20dp</dimen>
+
+    <!-- 顶部按钮文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">17sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">16sp</dimen>
+    <!-- 选项文字大小 -->
+    <dimen name="pickerview_textsize">20sp</dimen>
+
+    <dimen name="pop_item_padding">10dp</dimen>
+    <dimen name="pop_item_text_size">18sp</dimen>
+    <dimen name="pop_line_height">1dp</dimen>
+    <dimen name="pop_radius">8dp</dimen>
+
+    <dimen name="pop_action_sheet_text_size_title">16sp</dimen>
+    <dimen name="pop_action_sheet_text_size_message">14sp</dimen>
+
+
+    <dimen name="def_height">50dp</dimen>
+
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+
+</resources>
